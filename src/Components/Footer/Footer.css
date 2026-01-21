@@ -1,0 +1,17 @@
+a {
+    color:white;
+}
+li {
+    color: white;
+}
+.text-logo{
+    color: #38b6ff !important;}
+a:hover{
+    color: #38b6ff;
+}    
+#subscribeEmail{
+    color:white;
+}
+.btn-success {
+    background-color: #38b6ff;
+}

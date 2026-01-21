@@ -1,0 +1,79 @@
+.BestSaller{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+
+.BestSaller-title{
+     font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.BestSaller-title span{
+    color: #38b6ff;
+}
+.product-item{
+    transition: 0.3s;
+    position: relative;
+}
+.product-item::before{
+    content: "Sale!";
+    font-size: 10px;
+    font-weight: 400;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: #ededed;
+    position: absolute;
+}
+.product-item:hover {
+    color: #38b6ff;
+}
+.product-item:hover .product-price{
+    display: none;
+    transition: 0.3s
+}
+.product-item:hover .AddToCart {
+    display: block;
+}
+
+.product-img{
+    width: 100%;
+}
+.product-title{
+    font-size: 20px;
+    font-weight: 300;
+}
+.product-category {
+    opacity: 0.7;
+}
+.product-price {
+    font-weight: 900;
+}
+.AddToCart{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: none;
+    transition: 0.3s;
+}
+.AddToCart:hover{
+    color: #38b6ff;
+}
+.viewAllProduct{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.viewAllProduct:hover .icon{
+    animation: moveRight 1s ease-in-out infinite;
+}
+
+/* تعريف الحركة */
+@keyframes moveRight {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(20px); } /* إزاحة يمين */
+  100% { transform: translateX(0); }    /* العودة لنقطة البداية */
+}

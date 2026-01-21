@@ -1,0 +1,13 @@
+.bg-color{
+    background-color: #e5e5e5;
+}
+.text-color{
+    color: #38b6ff;
+}
+.item:hover{
+    background-color: #38b6ff;
+    color: white;
+}
+.item:hover .text-color{
+    color: white;
+}
