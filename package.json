@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/Abdallah-Fouad05/Valore_Store_FrontEnd",
+  "homepage": "https://Abdallah-Fouad05.github.io/Valore_Store_FrontEnd",
   "dependencies": {
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
